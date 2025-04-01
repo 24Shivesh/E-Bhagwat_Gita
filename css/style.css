@@ -1,0 +1,307 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+ .navbar {
+    font-weight: 700;
+    top: 0px;
+    position: sticky;
+    z-index: 999;
+}
+
+.navbar .navbar-brand{
+    font-size: 30px;
+}
+
+.navbar .collapse{
+    padding-left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* hero-section */
+/* Hero Section Styling */
+.hero-section {
+    position: relative;
+    width: 100%;
+    max-width: 100rem;
+    margin: auto;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.hero-section-quotes {
+    position: relative;
+    width: 100%;
+    max-width: 100rem;
+    margin: auto;
+    height: 50rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.hero-section-quotes img {
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    border-radius: 20px;
+}
+
+/* Image Styling */
+.hero-section img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+/* Text Overlay Styling */
+.text-overlay {
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 4vw; /* Makes font size responsive */
+    font-weight: 800;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+}
+
+.text-overlay span {
+    color: rgb(254, 223, 137);
+}
+
+/* 📱 Responsive Design */
+@media (max-width: 1024px) {
+    .hero-section {
+        height: 60vh;
+        padding: 10px;
+    }
+
+    .text-overlay {
+        font-size: 3.5vw;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-section {
+        height: 50vh;
+        padding: 10px;
+    }
+
+    .text-overlay {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-section {
+        height: 40vh;
+    }
+
+    .text-overlay {
+        font-size: 1.5rem;
+    }
+}
+
+
+section h2{
+    padding-top: 40px;
+    padding-left: 59px;
+    color: white;
+    font-weight: 800;
+}
+
+.row{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 35px;
+    padding-bottom: 20px;
+}
+
+.card{
+    color: white;
+}
+.card-title{
+    color: orange;
+    font-size: 15px;
+}
+.card-second{
+    padding-bottom: 20px;
+    font-weight: 700;
+}
+
+section h6{
+    font-size: 13px;
+}
+
+
+/* 
+footer */
+
+
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-top: solid white 2px;
+}
+
+.footerSection {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    gap: 15px;
+    padding: 10px;
+}
+
+/* Footer links */
+.footerContent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+/* Ensure "About Us" is centered */
+.footerContent p {
+    margin: 0;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.footerContent p:hover {
+    color: #ffcc00; /* Highlight on hover */
+}
+
+/* Social media icons directly under "About Us" */
+.social-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Social media icons */
+.social-media {
+    display: flex;
+    gap: 15px;
+}
+
+.social-media a {
+    font-size: 24px;
+    color: #fff;
+    transition: color 0.3s ease;
+    text-decoration: none;
+}
+
+.social-media a:hover {
+    color: #ffcc00;
+}
+
+/* Responsive Design */
+@media (min-width: 600px) {
+    .footerSection {
+        flex-direction: column;
+    }
+
+    .footerContent {
+        flex-direction: column;
+    }
+}
+
+
+
+
+
+/* Second-Page (Chapter-1) */
+
+section .container{
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    padding-top: 60px;
+    width: 860px;
+}
+
+section p{
+    padding-top: 20px;
+}
+
+
+
+section h1{
+    font-weight: 900;
+}
+
+
+
+/* second section */
+
+section .verse{
+    color: white;
+    margin-top: 150px;
+    text-align: center;
+    border-top: solid white 1.5px;
+    border-bottom: solid white 1.5px;
+}
+
+section h3{
+    font-size: 25px;
+    padding-top: 20px;
+    font-weight: 900;
+    padding-bottom: 15px;
+}
+
+section .card{
+    padding-top: 20px;
+    border-radius: 20px;
+    margin-bottom: 25px;
+}
+
+/* quotes */
+
+
+.quotes h2{
+    text-align: center;
+    font-weight: 200;
+    font-size: 20PX;
+    color: orange;
+}
+
+.quotes p{
+    color: white;
+    font-size: 28px;
+    font-weight: 400;
+    margin-bottom: 200px;
+    margin-top: 50px;
+}
+
+
+/* about */
+
+.about .container-fluid{
+    font-size: 20px;
+    color: white;
+    width: 80%;
+    margin-bottom: 150px;
+}
+
+
+
+
+.contact-us{
+    margin-bottom: 170px;   
+}
